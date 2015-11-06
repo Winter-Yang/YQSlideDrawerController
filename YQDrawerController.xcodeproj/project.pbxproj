@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48E629161BEB54F60071A012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E629151BEB54F60071A012 /* AppDelegate.swift */; };
+		48E629181BEB54F60071A012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E629171BEB54F60071A012 /* ViewController.swift */; };
+		48E6291B1BEB54F60071A012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E629191BEB54F60071A012 /* Main.storyboard */; };
+		48E6291D1BEB54F60071A012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E6291C1BEB54F60071A012 /* Assets.xcassets */; };
+		48E629201BEB54F60071A012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E6291E1BEB54F60071A012 /* LaunchScreen.storyboard */; };
+		48E6292B1BEB54F60071A012 /* YQDrawerControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6292A1BEB54F60071A012 /* YQDrawerControllerTests.swift */; };
+		48E629361BEB54F60071A012 /* YQDrawerControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E629351BEB54F60071A012 /* YQDrawerControllerUITests.swift */; };
+		48E629441BEB55160071A012 /* YQLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E629431BEB55160071A012 /* YQLeftViewController.swift */; };
+		48E629461BEB55F20071A012 /* YQCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E629451BEB55F20071A012 /* YQCenterViewController.swift */; };
+		48E629481BEB56790071A012 /* hamburger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E629471BEB56790071A012 /* hamburger@2x.png */; };
+		48E6294A1BEB571A0071A012 /* YQDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E629491BEB571A0071A012 /* YQDrawerViewController.swift */; };
+		48E6294C1BEB5B350071A012 /* YQDropShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6294B1BEB5B350071A012 /* YQDropShadowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48E629271BEB54F60071A012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48E6290A1BEB54F60071A012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48E629111BEB54F60071A012;
+			remoteInfo = YQDrawerController;
+		};
+		48E629321BEB54F60071A012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48E6290A1BEB54F60071A012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48E629111BEB54F60071A012;
+			remoteInfo = YQDrawerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48E629121BEB54F60071A012 /* YQDrawerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQDrawerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E629151BEB54F60071A012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48E629171BEB54F60071A012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48E6291A1BEB54F60071A012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48E6291C1BEB54F60071A012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48E6291F1BEB54F60071A012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48E629211BEB54F60071A012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E629261BEB54F60071A012 /* YQDrawerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQDrawerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E6292A1BEB54F60071A012 /* YQDrawerControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQDrawerControllerTests.swift; sourceTree = "<group>"; };
+		48E6292C1BEB54F60071A012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E629311BEB54F60071A012 /* YQDrawerControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQDrawerControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E629351BEB54F60071A012 /* YQDrawerControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQDrawerControllerUITests.swift; sourceTree = "<group>"; };
+		48E629371BEB54F60071A012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E629431BEB55160071A012 /* YQLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQLeftViewController.swift; sourceTree = "<group>"; };
+		48E629451BEB55F20071A012 /* YQCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQCenterViewController.swift; sourceTree = "<group>"; };
+		48E629471BEB56790071A012 /* hamburger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hamburger@2x.png"; sourceTree = "<group>"; };
+		48E629491BEB571A0071A012 /* YQDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQDrawerViewController.swift; sourceTree = "<group>"; };
+		48E6294B1BEB5B350071A012 /* YQDropShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQDropShadowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48E6290F1BEB54F60071A012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E629231BEB54F60071A012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E6292E1BEB54F60071A012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48E629091BEB54F60071A012 = {
+			isa = PBXGroup;
+			children = (
+				48E629141BEB54F60071A012 /* YQDrawerController */,
+				48E629291BEB54F60071A012 /* YQDrawerControllerTests */,
+				48E629341BEB54F60071A012 /* YQDrawerControllerUITests */,
+				48E629131BEB54F60071A012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48E629131BEB54F60071A012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48E629121BEB54F60071A012 /* YQDrawerController.app */,
+				48E629261BEB54F60071A012 /* YQDrawerControllerTests.xctest */,
+				48E629311BEB54F60071A012 /* YQDrawerControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48E629141BEB54F60071A012 /* YQDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				48E629151BEB54F60071A012 /* AppDelegate.swift */,
+				48E629171BEB54F60071A012 /* ViewController.swift */,
+				48E629491BEB571A0071A012 /* YQDrawerViewController.swift */,
+				48E629431BEB55160071A012 /* YQLeftViewController.swift */,
+				48E629451BEB55F20071A012 /* YQCenterViewController.swift */,
+				48E6294B1BEB5B350071A012 /* YQDropShadowView.swift */,
+				48E629471BEB56790071A012 /* hamburger@2x.png */,
+				48E629191BEB54F60071A012 /* Main.storyboard */,
+				48E6291C1BEB54F60071A012 /* Assets.xcassets */,
+				48E6291E1BEB54F60071A012 /* LaunchScreen.storyboard */,
+				48E629211BEB54F60071A012 /* Info.plist */,
+			);
+			path = YQDrawerController;
+			sourceTree = "<group>";
+		};
+		48E629291BEB54F60071A012 /* YQDrawerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				48E6292A1BEB54F60071A012 /* YQDrawerControllerTests.swift */,
+				48E6292C1BEB54F60071A012 /* Info.plist */,
+			);
+			path = YQDrawerControllerTests;
+			sourceTree = "<group>";
+		};
+		48E629341BEB54F60071A012 /* YQDrawerControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48E629351BEB54F60071A012 /* YQDrawerControllerUITests.swift */,
+				48E629371BEB54F60071A012 /* Info.plist */,
+			);
+			path = YQDrawerControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48E629111BEB54F60071A012 /* YQDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E6293A1BEB54F60071A012 /* Build configuration list for PBXNativeTarget "YQDrawerController" */;
+			buildPhases = (
+				48E6290E1BEB54F60071A012 /* Sources */,
+				48E6290F1BEB54F60071A012 /* Frameworks */,
+				48E629101BEB54F60071A012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQDrawerController;
+			productName = YQDrawerController;
+			productReference = 48E629121BEB54F60071A012 /* YQDrawerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48E629251BEB54F60071A012 /* YQDrawerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E6293D1BEB54F60071A012 /* Build configuration list for PBXNativeTarget "YQDrawerControllerTests" */;
+			buildPhases = (
+				48E629221BEB54F60071A012 /* Sources */,
+				48E629231BEB54F60071A012 /* Frameworks */,
+				48E629241BEB54F60071A012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48E629281BEB54F60071A012 /* PBXTargetDependency */,
+			);
+			name = YQDrawerControllerTests;
+			productName = YQDrawerControllerTests;
+			productReference = 48E629261BEB54F60071A012 /* YQDrawerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48E629301BEB54F60071A012 /* YQDrawerControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E629401BEB54F60071A012 /* Build configuration list for PBXNativeTarget "YQDrawerControllerUITests" */;
+			buildPhases = (
+				48E6292D1BEB54F60071A012 /* Sources */,
+				48E6292E1BEB54F60071A012 /* Frameworks */,
+				48E6292F1BEB54F60071A012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48E629331BEB54F60071A012 /* PBXTargetDependency */,
+			);
+			name = YQDrawerControllerUITests;
+			productName = YQDrawerControllerUITests;
+			productReference = 48E629311BEB54F60071A012 /* YQDrawerControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48E6290A1BEB54F60071A012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "杨雯德";
+				TargetAttributes = {
+					48E629111BEB54F60071A012 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					48E629251BEB54F60071A012 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 48E629111BEB54F60071A012;
+					};
+					48E629301BEB54F60071A012 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 48E629111BEB54F60071A012;
+					};
+				};
+			};
+			buildConfigurationList = 48E6290D1BEB54F60071A012 /* Build configuration list for PBXProject "YQDrawerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48E629091BEB54F60071A012;
+			productRefGroup = 48E629131BEB54F60071A012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48E629111BEB54F60071A012 /* YQDrawerController */,
+				48E629251BEB54F60071A012 /* YQDrawerControllerTests */,
+				48E629301BEB54F60071A012 /* YQDrawerControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48E629101BEB54F60071A012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E629201BEB54F60071A012 /* LaunchScreen.storyboard in Resources */,
+				48E6291D1BEB54F60071A012 /* Assets.xcassets in Resources */,
+				48E629481BEB56790071A012 /* hamburger@2x.png in Resources */,
+				48E6291B1BEB54F60071A012 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E629241BEB54F60071A012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E6292F1BEB54F60071A012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48E6290E1BEB54F60071A012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E629441BEB55160071A012 /* YQLeftViewController.swift in Sources */,
+				48E629461BEB55F20071A012 /* YQCenterViewController.swift in Sources */,
+				48E629181BEB54F60071A012 /* ViewController.swift in Sources */,
+				48E6294A1BEB571A0071A012 /* YQDrawerViewController.swift in Sources */,
+				48E629161BEB54F60071A012 /* AppDelegate.swift in Sources */,
+				48E6294C1BEB5B350071A012 /* YQDropShadowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E629221BEB54F60071A012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E6292B1BEB54F60071A012 /* YQDrawerControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E6292D1BEB54F60071A012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E629361BEB54F60071A012 /* YQDrawerControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48E629281BEB54F60071A012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48E629111BEB54F60071A012 /* YQDrawerController */;
+			targetProxy = 48E629271BEB54F60071A012 /* PBXContainerItemProxy */;
+		};
+		48E629331BEB54F60071A012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48E629111BEB54F60071A012 /* YQDrawerController */;
+			targetProxy = 48E629321BEB54F60071A012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48E629191BEB54F60071A012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E6291A1BEB54F60071A012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48E6291E1BEB54F60071A012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E6291F1BEB54F60071A012 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48E629381BEB54F60071A012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48E629391BEB54F60071A012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48E6293B1BEB54F60071A012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQDrawerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyang.pro.YQDrawerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48E6293C1BEB54F60071A012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQDrawerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyang.pro.YQDrawerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48E6293E1BEB54F60071A012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQDrawerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyang.pro.YQDrawerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQDrawerController.app/YQDrawerController";
+			};
+			name = Debug;
+		};
+		48E6293F1BEB54F60071A012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQDrawerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyang.pro.YQDrawerControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQDrawerController.app/YQDrawerController";
+			};
+			name = Release;
+		};
+		48E629411BEB54F60071A012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQDrawerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyang.pro.YQDrawerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQDrawerController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		48E629421BEB54F60071A012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQDrawerControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyang.pro.YQDrawerControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQDrawerController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48E6290D1BEB54F60071A012 /* Build configuration list for PBXProject "YQDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E629381BEB54F60071A012 /* Debug */,
+				48E629391BEB54F60071A012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E6293A1BEB54F60071A012 /* Build configuration list for PBXNativeTarget "YQDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E6293B1BEB54F60071A012 /* Debug */,
+				48E6293C1BEB54F60071A012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48E6293D1BEB54F60071A012 /* Build configuration list for PBXNativeTarget "YQDrawerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E6293E1BEB54F60071A012 /* Debug */,
+				48E6293F1BEB54F60071A012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48E629401BEB54F60071A012 /* Build configuration list for PBXNativeTarget "YQDrawerControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E629411BEB54F60071A012 /* Debug */,
+				48E629421BEB54F60071A012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48E6290A1BEB54F60071A012 /* Project object */;
+}
